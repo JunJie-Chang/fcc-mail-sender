@@ -18,7 +18,7 @@ SENDER_NAME    = "藍濤亞洲 FCC Partners"
 SUBJECT        = "[台美新創合作論壇：機器人聯盟合作說明會] 活動邀請"
 XLSX_FILE      = "contacts.xlsx"
 TEMPLATE_FILE  = "template.html"
-MAX_SEND       = 90
+MAX_SEND       = 500  # Gmail SMTP 免費帳號每日上限
 SLEEP_EVERY    = 10   # 每幾封暫停一次
 SLEEP_SECONDS  = 1    # 暫停秒數
 

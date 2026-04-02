@@ -76,7 +76,7 @@ GMAIL_APP_PASSWORD=xxxx xxxx xxxx xxxx
 python send_emails.py
 ```
 
-250 人以每次 90 封計算，需執行 **3 天**。每次執行會自動從上次中斷處繼續。
+250 人一次執行即可發完。Gmail SMTP 免費帳號每日上限 500 封，預設 `MAX_SEND` 設為 500。若中途中斷，重新執行會自動跳過已發送的收件人繼續發送。
 
 ## 設定參數
 
